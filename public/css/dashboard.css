@@ -1,37 +1,57 @@
+body {
+    background-color: #e5e7e9;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
 .bi {
     display: inline-block;
     width: 1rem;
     height: 1rem;
-  }
-  
-  /*
-   * Sidebar
-   */
-  
-  @media (min-width: 768px) {
+}
+
+@media (min-width: 768px) {
     .sidebar .offcanvas-lg {
-      position: -webkit-sticky;
-      position: sticky;
-      top: 48px;
+        position: -webkit-sticky;
+        position: sticky;
+        top: 48px;
     }
     .navbar-search {
-      display: block;
+        display: block;
     }
-  }
-  
-  .sidebar .nav-link {
+}
+
+.sidebar .nav-link {
     font-size: .875rem;
     font-weight: 500;
-  }
-  
-  .sidebar .nav-link.active {
+}
+
+.sidebar .nav-link.active {
     color: #2470dc;
-  }
-  
-  .sidebar-heading {
+}
+
+.sidebar-heading {
     font-size: .75rem;
-  }
-  
+}
+
+.navbar-brand {
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: rgba(0, 0, 0, .25);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .25);
+}
+
+.navbar .form-control {
+    padding: .75rem 1rem;
+}
+
+.sidebar-custom {
+    background-color: inherit;
+    color: inherit;
+}
+
   /*
    * Navbar
    */
@@ -46,10 +66,15 @@
   .navbar .form-control {
     padding: .75rem 1rem;
   }
-  .sidebar-custom {
+
+  body {
     background-color: #e5e7e9; /* Altere para a cor desejada */
-    color: #333333; /* Altere para a cor do texto desejada */
+    color: #333333;            /* Cor do texto global */
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;         /* Garante que cubra toda a altura da janela */
 }
+
 
 
 

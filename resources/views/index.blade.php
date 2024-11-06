@@ -59,7 +59,7 @@
       .b-example-vr {
         flex-shrink: 0;
         width: 1.5rem;
-        height: 100vh;
+        height: 100%;
       }
 
       .bi {
@@ -109,6 +109,7 @@
       .bd-mode-toggle .dropdown-menu .active .bi {
         display: block !important;
       }
+      
     </style>
 
     
